@@ -52,3 +52,34 @@ Do you want to contribute, raise an issue or add new feature, follow these steps
 - Tailwind CSS
 - Prisma (database)
 - Redux (state management)
+
+## Here is the Component Structure for our App
+
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── Layout.jsx
+│   ├── dashboard/
+│   │   ├── TransactionsList.jsx
+│   │   ├── BudgetOverview.jsx
+│   │   └── Charts.jsx
+│   ├── transactions/
+│   │   ├── TransactionForm.jsx
+│   │   └── TransactionItem.jsx
+│   ├── categories/
+│   │   ├── CategoryForm.jsx
+│   │   └── CategoryList.jsx
+│   └── common/
+│       ├── Button.jsx
+│       └── Input.jsx
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Transactions.jsx
+│   ├── Categories.jsx
+│   └── Reports.jsx
+└── features/
+    ├── transactions/
+    ├── categories/
+    └── budgets/
