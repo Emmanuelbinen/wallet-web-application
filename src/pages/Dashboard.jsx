@@ -67,8 +67,11 @@ function Dashboard() {
         </div>
       </div>
 
+      {/* Render the BudgetOverview component with income and expenses props */}
       <BudgetOverview income={totals.income} expenses={totals.expenses} />
+      {/* Render the Charts component with chartData prop */}
       <Charts data={chartData} />
+      {/* Render the TransactionItem component with the first 5 transactions */}
       <TransactionItem transactions={transactions.slice(0, 5)} />  {/* Use TransactionItem here */}
     </div>
   );

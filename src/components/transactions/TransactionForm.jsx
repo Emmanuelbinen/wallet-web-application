@@ -75,7 +75,9 @@ export function TransactionForm({ onAddTransaction }) {
         </div>
 
         <div>
+          {/* Label for the date input */}
           <label className="block text-sm font-medium text-gray-700 mb-1">Date</label>
+          {/* Input for the transaction date */}
           <input
             type="date"
             value={formData.date}
@@ -86,6 +88,7 @@ export function TransactionForm({ onAddTransaction }) {
         </div>
       </div>
 
+      {/* Submit button for the form */}
       <button
         type="submit"
         className="mt-4 inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700"
